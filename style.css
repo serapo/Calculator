@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    /* background-color: gray; */
+}
+body{
+    background-color: gray;
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.ortala{
+    border: none;
+    background-color:black;
+    padding: 0.2rem;
+    padding-left: 0;
+    padding-right: 0;
+    border-radius: 50px;
+}
+
+.container{
+    display:grid;
+    /* grid-template-columns: 50px 50px 50px 50px; */
+    grid-template-columns:repeat(4,1fr) ;
+    /* gap: 15px; */
+    grid-template-rows: repeat(5,1fr); 
+
+   /* grid-template-columns: 100px 100px 100px 100px;
+
+  /*! Sırasıyla 100px, 500px,20vh ve 3rem'lik yüksekliğe sahip 4 adet satır tanımla (4x3 Grid)*/
+  grid-template-rows: 100px 100px 100px 100px 100px;
+
+    background-color: black;
+    width: 22rem;
+    height: 30rem; 
+     margin: 1rem; 
+     color:white;
+    margin:50px auto; 
+    gap: 0rem 0rem;
+    margin: 2rem;
+    margin-top: 0;
+    padding-left: 0.5rem;
+    /* overflow: auto; */
+    
+    
+   /* grid-template-columns: fit-content(150px) fit-content(150px) fit-content(150px)fit-content(150px);  ;
+*/
+}
+button{
+    width: 5rem;
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    font-size: 25px;
+    display: inline-block;
+    
+}
+.bolum,.carpı, .eksi ,.artı{
+    background-color:#F1A33C;
+    font-weight: 900;
+}
+.sonuc{
+    background-color: black;
+    width: 22rem;
+    height: 5rem;
+    margin: 2rem ;
+    padding: 0;
+    margin-bottom: 0%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+button{
+    background-color: #333333;
+}
+.AC ,.artıeksi,.yüzde{
+    background-color: gray;
+}
+button:hover{
+    
+    cursor:pointer;
+    opacity: 0.5;
+}
+.item-16{
+/* grid-column: 1/3; */
+grid-column:1 / span 2 ;
+/* grid-row: 5/6; */
+/* border-radius: 55px;
+text-align: left;
+padding-left: 43px; */
+
+
+}
+
+.sifir{
+    width: 170px;
+    border-radius: 3rem;
+}
+
+
