@@ -1,9 +1,11 @@
-const btnyedi=document.getElementById("yedi");
-const sekiz=document.getElementById("sekiz");
-const esittir=document.getElementById("esittir");
-const sonuclar=document.getElementById("sonuc");
+// const sekiz=document.getElementById("sekiz");
+// const sonuc=document.getElementById("sonuc");
+// const dokuz=document.getElementById("dokuz");
 
+// sekiz.addEventListener('click',() =>{
+//     sonuc.innerHTML=`<p>8</p>`;
+// });
 
-sekiz.addEventListener('click',()=>{
-    sonuclar.innerHTML=`<p>8</p>`.style.color="red";
-});
+// dokuz.addEventListener('click',() =>{
+//     sonuc.innerHTML=`<p>9</p>`;
+// });

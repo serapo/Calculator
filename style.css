@@ -92,6 +92,7 @@ button:hover{
     
     cursor:pointer;
     opacity: 0.5;
+    background-color: red;
 }
 .item-16{
 /* grid-column: 1/3; */
