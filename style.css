@@ -5,12 +5,13 @@
     /* background-color: gray; */
 }
 body{
-    background-color: gray;
-    /* width: 100vw;
-    height: 100vh; */
+    background-color:lightgray;
+    /* width: 100vw; */
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+
    
 }
 .ortala{
@@ -63,24 +64,28 @@ button{
     display: inline-block;
     
 }
-.bolum,.carpı, .eksi ,.artı{
+#bolum,#carpı, #eksi ,#artı{
     background-color:#F1A33C;
     font-weight: 900;
 }
-.sonuc{
+#sonuc{
     background-color: black;
     width: 22rem;
-    height: 5rem;
+    height: 8rem;
     margin: 2rem ;
     padding: 0;
     margin-bottom: 0%;
     padding-left: 0.5rem;
     padding-right: 0.5rem;
+    color:white;
+    text-align: right;
+    padding-top: 3rem;
+    font-size: 40px;
 }
 button{
     background-color: #333333;
 }
-.AC ,.artıeksi,.yüzde{
+#AC ,#artıeksi,#yüzde{
     background-color: gray;
 }
 button:hover{
@@ -99,7 +104,7 @@ padding-left: 43px; */
 
 }
 
-.sifir{
+#sifir{
     width: 170px;
     border-radius: 3rem;
 }
