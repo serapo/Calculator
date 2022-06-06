@@ -26,11 +26,9 @@ sifir.addEventListener('click',() =>{sayiyaz(0);});
 AC.addEventListener('click', () =>{ sonuc.innerHTML=`0`});
 
 function sayiyaz(rakam){ 
-    if(sonuc.value=="0"){
-        sonuc.value="";
-    }
-    else{
-        sonuc.innerHTML +=rakam; 
-    }
-        
+    if(sonuc.innerHTML=='0'){
+         sonuc.innerHTML=" ";
+         
+     }
+     sonuc.innerHTML +=rakam;
 }
